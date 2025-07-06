@@ -210,11 +210,25 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 4. Push a la rama
 5. Abre un Pull Request
 
-## 📞 Soporte
+## � Solución de Problemas
+
+### Error común en Netlify:
+```
+Could not resolve "./services/geminiService"
+```
+**Solución**: Ver `NETLIFY_FIX.md` - Este error ya está solucionado en el código.
+
+### Otros problemas comunes:
+- **Error de API Key**: Verifica que `VITE_GEMINI_API_KEY` esté configurada
+- **Build fallido**: Ejecuta `npm install` y `npm run build`
+- **CSS no carga**: Verifica instalación de Tailwind CSS
+
+## �📞 Soporte
 
 Para soporte técnico o consultas:
 - Crea un issue en GitHub
 - Contacta al equipo de desarrollo
+- Revisa `NETLIFY_FIX.md` para errores de deploy
 
 ---
 

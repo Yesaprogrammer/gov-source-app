@@ -232,4 +232,27 @@ Para soporte técnico o consultas:
 
 ---
 
+## 🚨 Problemas Comunes y Soluciones
+
+### 📋 Documentación de Troubleshooting:
+- 📄 **`NETLIFY_FIX.md`** - Error de import modules en Netlify
+- 📄 **`NETLIFY_BLANK_PAGE_FIX.md`** - Página en blanco en Netlify (tu problema actual)
+- 📄 **`FREE_HOSTING_ALTERNATIVES.md`** - Alternativas gratuitas de hosting
+
+### 🔧 Solución Rápida - Página en Blanco:
+1. Ve a netlify.com → tu sitio `leximanage`
+2. Site Settings → Environment Variables
+3. Add Variable: `VITE_GEMINI_API_KEY` = tu_api_key_real
+4. Deployments → Trigger Deploy
+5. ¡Funcionará en 2 minutos!
+
+### 🆓 Alternativas de Hosting (Sin comprar dominio):
+- ⭐ **Vercel** - `tu-app.vercel.app` (Recomendado)
+- ⭐ **GitHub Pages** - `usuario.github.io/repo`
+- ⭐ **Surge** - `tu-app.surge.sh`
+- ⭐ **Firebase** - `tu-app.web.app`
+- ⭐ **Render** - `tu-app.onrender.com`
+
+---
+
 **Desarrollado con ❤️ para ayudar a las personas a acceder a información legal oficial**

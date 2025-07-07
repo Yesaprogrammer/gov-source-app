@@ -1,10 +1,10 @@
 
 import React, { useState, useCallback } from 'react';
-import { ApiStatus, ResultData } from './types';
-import { COUNTRIES } from './constants';
-import { fetchOfficialAnswer } from './services/geminiService';
-import { CountrySelector } from './components/CountrySelector';
-import { GovernmentBuildingIcon, LoaderIcon, SearchIcon, AlertTriangleIcon, LinkIcon, CheckCircleIcon } from './components/icons';
+import { ApiStatus, ResultData } from './types.js';
+import { COUNTRIES } from './constants.js';
+import { fetchOfficialAnswer } from './services/geminiService.js';
+import { CountrySelector } from './components/CountrySelector.jsx';
+import { GovernmentBuildingIcon, LoaderIcon, SearchIcon, AlertTriangleIcon, LinkIcon, CheckCircleIcon } from './components/icons.jsx';
 
 const App: React.FC = () => {
   const [question, setQuestion] = useState<string>('');
